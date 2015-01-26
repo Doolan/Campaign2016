@@ -69,6 +69,17 @@
 							</li>
 						</ul>
 					</li>
+					<li>
+						<a href="news.html">In the News ￬</a>
+						<ul class="hidden">
+							<li>
+								<a href="news.html#announcement">Announcement</a>
+							</li>
+							<li>
+								<a href="news.html#website">Website</a>
+							</li>
+						</ul>
+					</li>
 					<!--<li>
 					<a href="#">Meet the Team</a>
 				</li>
@@ -125,7 +136,7 @@
 			<a href="speeches.html">Speeches</a>
 		</li>
 		<li>
-			<a href="news.html">In the News ￬</a>
+			<a href="news.html">In the News</a>
 		</li>
 		<!--<li>
 		<a href="#">Meet the Team</a>
