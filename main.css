@@ -7,6 +7,11 @@ Old Glory Blue: #0052A5
 Every Page stuff
 **/
 
+nav.sticky {
+	position: fixed;
+	top: 0;
+}
+
 body{
 	background-color: #3C3C3C;
 	color:white;
@@ -312,10 +317,8 @@ input[type=checkbox]:checked ~ #menu{
 	background-image: url("images/banner_extra.jpg");
 	clear:both;
 }
+/** -------------------- POP UPS --------------------**/
 
-
-
-/**Join Us action**/
 #blackBackground{
 	position: absolute;
 	top:0;
@@ -326,8 +329,43 @@ input[type=checkbox]:checked ~ #menu{
 	opacity: .6;
 }
 
+
+/**Breaking News**/
+.mainText p a {
+	color: #FFFFFF;
+}
+
+#breaking{	
+	display:initial;
+	position:absolute;
+	width: 90%;
+	/**height: 200px;**/
+	background-color:#3C3C3C;
+
+	/**FORCE THE CENTER**/
+	position: fixed;
+  	top: 20px;
+  	left: 50%;
+  	/* bring your own prefixes */
+  	transform: translate(-50%, 0);
+
+
+	z-index: 5;
+	border-radius: 2px 2px 2px 2px;
+}
+
+#lily{
+	margin-bottom: 10px;
+}
+
+#changesToTeam{
+	margin-bottom: 0px;
+}
+
+/**Join Us action**/
+
 #register {	
-	display:initial ;
+	display:initial;
 	position:absolute;
 	width: 300px;
 	height: 200px;
